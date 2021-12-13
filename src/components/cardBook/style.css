@@ -1,0 +1,11 @@
+.cardBook {
+  width: 95%;
+  height: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 10px;
+  justify-content: center;
+  overflow-y: auto;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}

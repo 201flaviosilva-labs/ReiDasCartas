@@ -1,7 +1,15 @@
+import Header from "./components/header/header.js";
+import Main from "./components/main/main.js";
+import Footer from "./components/footer/footer.js";
+
+import "./app.css";
+
 export default function App() {
   return (
     <div className="App">
-      <h1>Rei Das Cartas</h1>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
