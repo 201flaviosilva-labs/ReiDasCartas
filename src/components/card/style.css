@@ -1,14 +1,15 @@
 .card {
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 2px 0;
+  position: relative;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 
-  position: relative;
+  padding: 2px 0;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 
   transition: all 0.5s;
   cursor: pointer;
@@ -16,6 +17,7 @@
 
 .card:hover {
   border: 1px solid red;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
   transform: scale(1.025);
 }
 

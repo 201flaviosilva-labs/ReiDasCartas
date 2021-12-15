@@ -2,11 +2,15 @@
   width: 95%;
   height: 100%;
   padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.cardBook-container {
   display: grid;
-  grid-template-rows: repeat(auto-fit, 400px);
+  grid-template-rows: repeat(auto-fit, 310px);
   grid-template-columns: repeat(auto-fit, 300px);
   gap: 10px;
   justify-content: center;
   overflow-y: auto;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
