@@ -1,15 +1,18 @@
 {
   "name": "rei-das-cartas",
   "version": "0.1.0",
-  "private": true,
+  "description": "A simple game to collect cards.",
+  "main": "index.js",
+  "homepage": ".",
+  "private": false,
   "scripts": {
     "clear": "rm -rf build && rm -rf out && rm -rf dist",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -23,6 +26,16 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mangito/ReiDasCartas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mangito/ReiDasCartas/issues"
   },
   "eslintConfig": {
     "extends": [
