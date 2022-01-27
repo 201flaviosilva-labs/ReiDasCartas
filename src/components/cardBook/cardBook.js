@@ -1,22 +1,23 @@
 import React from "react";
 
 import Card from "../card/card";
-import Cards from "../../Cards";
+import CardsList from "../../Cards/Cards";
 
 import "./style.css";
 
-export default function CardBook() {
+export default function CardBook({ onCardSelected }) {
 	return (
 		<div className="cardBook">
 			<ul className="cardBook-container">
 				{
-					Cards.map((card, index) => {
+					CardsList.map((card, index) => {
 						return <Card
 							key={index}
-							id={index + 1}
+							id={card.id}
 							title={card.title}
-							asset={card.asset}
+							assets={card.assets}
 							isOwner={false}
+							onCardSelected={onCardSelected}
 						/>;
 					})
 				}
