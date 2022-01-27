@@ -3,6 +3,10 @@
 ## Description
 A simple game to collect cards.
 
+## Links
+- [Play Game](https://mangito.github.io/ReiDasCartas/);
+- [GitHub Repo](https://github.com/Mangito/ReiDasCartas);
+
 ## Available Commands
 
 | Command          | Description                                                        |
