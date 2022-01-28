@@ -1,12 +1,11 @@
 import { RiCloseLine } from "react-icons/ri";
 import CardsList from "../../Cards/Cards";
-import * as GI from "react-icons/gi";
+import CardImage from "../cardImage/CardImage";
 
 import "./style.css";
 
 export default function CardModal({ selectedCardID, setSelectedCardID }) {
 	const selectedCard = CardsList.find((card) => card.id === selectedCardID);
-	const Image = GI[selectedCard.assets[0]];
 	const size = 275;
 
 	function closeModal() { setSelectedCardID(null); }
@@ -24,7 +23,16 @@ export default function CardModal({ selectedCardID, setSelectedCardID }) {
 
 			<div className="modal-body">
 				<div className="modal-body-image-container">
-					<Image size={size} className="modal-body-image" />
+					{
+						selectedCard.assets.map((asset, index) => {
+							return <CardImage
+								key={index}
+								asset={asset}
+								selectedCard={selectedCard}
+								size={size}
+							/>
+						})
+					}
 				</div>
 
 				<div className="modal-body-description">

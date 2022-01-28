@@ -1,10 +1,10 @@
 import React from "react";
-import * as GI from "react-icons/gi";
+import CardImage from "../cardImage/CardImage";
 
 import "./style.css";
 
 export default function Card({ id, title, assets, isOwner, onCardSelected }) {
-	const Image = GI[assets[0]];
+	const asset = assets[0];
 	const size = 275;
 
 	const style = {
@@ -12,9 +12,14 @@ export default function Card({ id, title, assets, isOwner, onCardSelected }) {
 	};
 
 	return (
-		<div className="card" style={style} onClick={() => onCardSelected(id)}>
+		<div
+			title={title}
+			className="card"
+			style={style}
+			onClick={() => onCardSelected(id)}
+		>
 			<p className="card-number">{id}</p>
-			<Image size={size} className="card-image" />
+			<CardImage asset={asset} selectedCard={title} size={size} />
 			<p className="card-title">{title}</p>
 		</div>
 	)

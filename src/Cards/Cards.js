@@ -1,368 +1,240 @@
+import Assets from "./Assets";
+import Authors from "./Authors";
 import Labels from "./Labels";
 
 const cards = [
 	{
 		id: 1,
 		title: "Dog",
-		assets: ["GiSittingDog"],
+		assets: Assets.Dog,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 2,
 		title: "Cat",
-		assets: ["GiCat"],
+		assets: Assets.Cat,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 3,
 		title: "Fox",
-		assets: ["GiFox"],
+		assets: Assets.Fox,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 4,
 		title: "Wolf",
-		assets: ["GiWerewolf"],
+		assets: Assets.Wolf,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 5,
 		title: "Spider",
-		assets: ["GiSpiderAlt"],
+		assets: Assets.Spider,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 6,
 		title: "Worm",
-		assets: ["GiEarthWorm"],
+		assets: Assets.Worm,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 7,
 		title: "Axolotl",
-		assets: ["GiAxolotl"],
+		assets: Assets.Axolotl,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 8,
 		title: "Pangolin",
-		assets: ["GiPangolin"],
+		assets: Assets.Pangolin,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 9,
 		title: "Donkey",
-		assets: ["GiDonkey"],
+		assets: Assets.Donkey,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 10,
 		title: "Goat",
-		assets: ["GiGoat"],
+		assets: Assets.Goat,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 11,
 		title: "Pig",
-		assets: ["GiPig"],
+		assets: Assets.Pig,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 12,
 		title: "Bat",
-		assets: ["GiBat"],
+		assets: Assets.Bat,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 13,
 		title: "Chicken",
-		assets: ["GiChicken"],
+		assets: Assets.Chicken,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 14,
 		title: "Cow",
-		assets: ["GiCow"],
+		assets: Assets.Cow,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 15,
 		title: "Cricket",
-		assets: ["GiCricket"],
+		assets: Assets.Cricket,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 16,
 		title: "Dolphin",
-		assets: ["GiDolphin"],
+		assets: Assets.Dolphin,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 17,
 		title: "Duck",
-		assets: ["GiDuck"],
+		assets: Assets.Duck,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 18,
 		title: "Elephant",
-		assets: ["GiElephant"],
+		assets: Assets.Elephant,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 19,
 		title: "Squid",
-		assets: ["GiGiantSquid"],
+		assets: Assets.Squid,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 20,
 		title: "Gorilla",
-		assets: ["GiGorilla"],
+		assets: Assets.Gorilla,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 21,
 		title: "Griffin",
-		assets: ["GiGriffinSymbol"],
+		assets: Assets.Griffin,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 22,
 		title: "Penguin",
-		assets: ["GiPenguin"],
+		assets: Assets.Penguin,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 23,
 		title: "Rabbit",
-		assets: ["GiRabbit"],
+		assets: Assets.Rabbit,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 24,
 		title: "Seahorse",
-		assets: ["GiSeahorse"],
+		assets: Assets.Seahorse,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 25,
 		title: "Tortoise",
-		assets: ["GiTortoise"],
+		assets: Assets.Tortoise,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 	{
 		id: 26,
 		title: "Sheep",
-		assets: ["GiSheep"],
+		assets: Assets.Sheep,
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc. Sed euismod, urna eu tincidunt consectetur, nisi nunc viverra nisi, eget efficitur nisl nunc euismod nunc.",
 		labels: [Labels.Animal],
-		author: [
-			{
-				name: "Game Icons",
-				homepage: "https://game-icons.net/",
-			},
-		],
+		author: [Authors.GameIcons,],
 		price: 0,
 	},
 ];

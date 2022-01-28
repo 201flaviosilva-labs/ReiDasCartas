@@ -1,3 +1,4 @@
+import Authors from "./Authors";
 import Labels from "./Labels";
 
 const Template = {
@@ -6,12 +7,7 @@ const Template = {
 	assets: ["GiSittingDog"],
 	description: "Template description",
 	labels: [Labels.Animal],
-	author: [
-		{
-			name: "MeiaGaspea",
-			homepage: "https://meiagaspea.blogspot.com/",
-		},
-	],
+	author: [Authors.MeiaGaspea],
 };
 
 export default Template;
