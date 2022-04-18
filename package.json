@@ -5,6 +5,10 @@
   "main": "index.js",
   "homepage": ".",
   "private": false,
+  "author": {
+    "name": "Mangito",
+    "url": "https://mangito.github.io"
+  },
   "scripts": {
     "clear": "rm -rf build && rm -rf out && rm -rf dist",
     "start": "react-scripts start",
@@ -12,7 +16,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "cy:open": "./node_modules/.bin/cypress open"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -26,18 +31,15 @@
     "web-vitals": "^2.1.2"
   },
   "devDependencies": {
+    "cypress": "^9.5.4",
     "gh-pages": "^3.2.3"
   },
+  "license": "MIT",
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mangito/ReiDasCartas.git"
   },
-  "keywords": [],
-  "author": {
-    "name": "Mangito",
-    "url": "https://mangito.github.io"
-  },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mangito/ReiDasCartas/issues"
   },
