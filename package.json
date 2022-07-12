@@ -6,8 +6,8 @@
   "homepage": ".",
   "private": false,
   "author": {
-    "name": "Mangito",
-    "url": "https://mangito.github.io"
+    "name": "Flávio Silva",
+    "url": "https://201flaviosilva.github.io"
   },
   "scripts": {
     "clear": "rm -rf build && rm -rf out && rm -rf dist",
