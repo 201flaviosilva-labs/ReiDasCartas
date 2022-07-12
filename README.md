@@ -4,8 +4,8 @@
 A simple game to collect cards.
 
 ## Links
-- [Play Game](https://mangito.github.io/ReiDasCartas/);
-- [GitHub Repo](https://github.com/Mangito/ReiDasCartas);
+- [Play Game](https://201flaviosilva-labs.github.io/ReiDasCartas/);
+- [GitHub Repo](https://github.com/201flaviosilva-labs/ReiDasCartas);
 
 ## Available Commands
 
